@@ -16,4 +16,22 @@ navbar {
   }
 
 
-    
+  /*past*/
+
+  #clock {
+      background-color: rgb(121, 168, 184);
+  }
+
+  /*future*/
+  
+  #clock {
+      background-color: rgb(179, 81, 81);
+  }
+
+
+/*current*/
+  #clock   {
+      background-color: rgb(112, 172, 112);
+      color: white;
+      font-weight: bolder;
+  }

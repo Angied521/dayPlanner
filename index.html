@@ -16,7 +16,6 @@
 
 </head>
 
-<body>
 
     <nav class="navbar sticky-top navbar-light bg-light">
         <a class="navbar-brand" href="#">Day Planner</a>
@@ -32,74 +31,74 @@
     <div class="grid-container">
         <form name="myform" id="application" action="apply.php">
             <div class="input-group">
-                <div class="grid-item" id="8">08:00am</div>
-                <div class="grid-item"><input type="text_area" id="content" placeholder="Event">
-                    <button input type="button" onclick="myFunction()";>save</button>
+                <div class="grid-item" id="clock">08:00am</div>
+                <div class="grid-item"><input type="text_area" id="content1" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content1').id)">save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="9">09:00am</div>
-                <div class="grid-item"><input type="text_area" id="content" placeholder="Event">
-                    <button input type="button" onclick="save()" ;>save</button>
+                <div class="grid-item" id="clock">09:00am</div>
+                <div class="grid-item"><input type="text_area" id="content2" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('content2').id)">save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="10">10:00am</div>
-                <div class="grid-item"><input type="text_area" id="content" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">10:00am</div>
+                <div class="grid-item"><input type="text_area" id="content3" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content3').id)">Save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="11">11:00am</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">11:00am</div>
+                <div class="grid-item"><input type="text_area" id="content4" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content4').id)">Save</button>
                 </div>
             </div>
 
 
             <div class="input-group">
-                <div class="grid-item" id="12">12:00pm</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">12:00pm</div>
+                <div class="grid-item"><input type="text_area" id="content5" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content5').id)">save</button>
 
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="1">01:00pm</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">01:00pm</div>
+                <div class="grid-item"><input type="text_area" id="content6" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content6').id)">save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="2">02:00pm</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">02:00pm</div>
+                <div class="grid-item"><input type="text_area" id="content7" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content7').id)">save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="3">03:00pm</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">03:00pm</div>
+                <div class="grid-item"><input type="text_area" id="content8" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content8').id)">save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="4">04:00pm</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">04:00pm</div>
+                <div class="grid-item"><input type="text_area" id="content9" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content9').id)">save</button>
                 </div>
             </div>
 
             <div class="input-group">
-                <div class="grid-item" id="5">05:00pm</div>
-                <div class="grid-item"><input type="text" id="saveServer" placeholder="Event">
-                    <button type="button" onclick="save()">Save</button>
+                <div class="grid-item" id="clock">05:00pm</div>
+                <div class="grid-item"><input type="text_area" id="content10" placeholder="Event">
+                    <button input type="button" onclick="myFunction(document.querySelector('#content10').id)">save</button>
                 </div>
             </div>
 
@@ -150,8 +149,8 @@
         </div>
 
     </div>
-
-
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
     <script src="main.js"></script>
 
